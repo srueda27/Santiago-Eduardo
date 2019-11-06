@@ -29,6 +29,15 @@ a{
     background-color: darkgrey;
 }
 
+#welcome-section > h1{
+    color:white;
+    font-size: 4em;
+    position: absolute;
+    top:30%;
+    height: 100%;
+    width: 100%;
+}
+
 #contact{
     text-align: right;
 }
@@ -38,8 +47,19 @@ a{
     top: 50px;
 }
 
-h1{
-    margin: auto;
+#projects{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+   
+}
+
+.project-tile{
+    width: 250px;
+    height: 300px;
+    background: forestgreen;
+    position: relative;
+    top:50px;
 }
 
 @media only screen and (max-width: 600px) {
