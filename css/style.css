@@ -13,12 +13,18 @@ a{
 
 #navbar{
     background: #136cbe;
+    z-index: 50;
     height: 50px;
-    width: 100%;   
+    width: 100%;  
+    position: fixed;
+    top:0px; 
 }
 
 #welcome-section{
     display: flex;
+    position: relative;
+    top:50px;
+    z-index:40;
     height: 100vh;
     background-color: darkgrey;
 }
