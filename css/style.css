@@ -50,8 +50,7 @@ a{
 #projects{
     display: grid;
     grid-template-columns: auto auto auto;
-    
-   
+       
 }
 
 .project-tile{
