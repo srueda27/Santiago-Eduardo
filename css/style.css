@@ -1,0 +1,19 @@
+html,body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Open Sans';
+    background: #554f4f;
+    color: white;;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+#navbar{
+    background: #136cbe;
+    height: 50px;
+    width: 100%;   
+}
+
