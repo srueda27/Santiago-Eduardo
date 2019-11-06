@@ -17,3 +17,14 @@ a{
     width: 100%;   
 }
 
+#welcome-section{
+    display: flex;
+    height: 100vh;
+    background-color: darkgrey;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
