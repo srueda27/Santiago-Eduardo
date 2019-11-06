@@ -1,9 +1,10 @@
 html,body{
-    margin:0px;
+    margin: 0px;
     padding: 0px;
     font-family: 'Open Sans';
     background: #554f4f;
-    color: white;;
+    color: white;
+    text-align: center;
 }
 
 a{
@@ -17,16 +18,28 @@ a{
     height: 50px;
     width: 100%;  
     position: fixed;
-    top:0px; 
+    top:0px;
+    text-align: right;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
 }
 
 #welcome-section{
-    display: flex;
-    position: relative;
-    top:50px;
     z-index:40;
     height: 100vh;
     background-color: darkgrey;
+}
+
+#contact{
+    text-align: right;
+}
+
+#projects, #welcome-section, #profile-link{
+    position: relative;
+    top: 50px;
+}
+
+h1{
+    margin: auto;
 }
 
 @media only screen and (max-width: 600px) {
