@@ -20,7 +20,17 @@ a{
     position: fixed;
     top:0px;
     text-align: right;
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+#navbar > a {
+    position: relative;
+    right: 2em;
+    margin: 1em;
+    top: .8em;
+}
+
+#navbar > a:hover{
+    color: black;
 }
 
 #welcome-section{
@@ -39,25 +49,26 @@ a{
 }
 
 #contact{
-    text-align: right;
+    text-align: center;
+    margin: 2em;
+    height: 200px;
+    background-color: grey;
 }
 
-#projects, #welcome-section, #profile-link{
+#projects, #welcome-section, #profile-link, #contact{
     position: relative;
     top: 50px;
 }
 
 #projects{
     display: grid;
-    grid-template-columns: auto auto auto;
-    
-   
+    grid-template-columns: 1fr 1fr 1fr ;
 }
 
 .project-tile{
     width: 250px;
     height: 300px;
-    background: forestgreen;
+    background: #136cbe;
     position: relative;
     top:50px;
 }
